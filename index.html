@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>Student Registration</title>
+<style>
+h1
+{
+color: teal;
+text-align: center;
+font-size: 35px;
+background-color: yellow;
+padding: 20px;
+margin: 30px;
+}
+label
+{
+color: green;
+font-size: 25px;
+}
+.bg
+{
+background-color: pink;
+padding: 20px;
+margin: 30px;
+}
+button
+{
+border-radius: 25px;
+margin: 10px;
+padding: 20px;
+font-family: "Roboto";
+border-color: violet;
+}
+input
+{
+padding: 10px;
+margin:25px;
+border-color: blue;
+}
+.main-bg
+{
+background-color: purple;
+}
+.dabba
+{
+border-color: blue;
+margin:25px;
+}
+</style>
+</head>
+<body class="main-bg">
+<h1>Student Registration</h1>
+<form action = "next.php" method = "POST">
+<div class="bg">
+<center>
+<b> <div> 
+<label>First Name</label>
+<input type = "text" name = "fname"></b></div><br>
+<div>
+<b><label>Last Name</label>
+<input type = "text" name = "lname"></b></div><br>
+<div>
+<b><label>Password</label>
+<input type = "password" name = "pname"></b></div><br>
+<div>
+<b><label>Phone Number</label>
+<input type = "number" name = "pno"></b></div><br>
+<div>
+<b><label>Gender</label>
+<select class="dabba" name = "gen">
+<option value = "male">Male</option>
+<option value = "female">Female</option>
+<option value = "others">Others</option></div>
+</select><br><br>
+<div>
+<b><label>Email</label>
+<input type = "text" name = "email"></b></div><br>
+<b><label>DOB</label>
+<input type = "date" name = "name"></b></div><br>
+<div>
+<b><label>Messages</label>
+<textarea class="dabba" placeholder = "Any Feedback..."></textarea></b></div><br>
+<button>Submit</button>
+</center>
+</div>
+</form>
+</body>
+</html>
